@@ -6,5 +6,5 @@ while True:
         auto.click(button='left')     
 
         if keyboard.is_pressed('escape'):
-            sleep(60)
-            break
+            while True:
+                sleep(1)
