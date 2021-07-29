@@ -1,5 +1,10 @@
 import pyautogui as auto
+import keyboard
 from time import sleep
 
-for i in range(100):
-    auto.click(button='left')
+while True:
+        auto.click(button='left')     
+
+        if keyboard.is_pressed('escape'):
+            sleep(60)
+            break
