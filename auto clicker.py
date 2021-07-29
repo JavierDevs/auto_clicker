@@ -1,5 +1,5 @@
 import pyautogui as auto
 from time import sleep
 
-for i in range(how_many_clicks):
+for i in range(100):
     auto.click(button='left')
