@@ -1,4 +1,3 @@
-from appJar.appjar import PauseLogger
 import pyautogui
 import appJar
 import keyboard as key
