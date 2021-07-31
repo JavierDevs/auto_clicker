@@ -1,1 +1,1 @@
-You will need appJar, pyautogui, and keyboard modules
+You will need appJar, pyautogui, keyboard modules
